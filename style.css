@@ -3,10 +3,13 @@
     font-family: 'Raleway', sans-serif;
     
     body {
-        color: black;
+        background-color:#FFFFFF(--secondary-color);
+        color:#4BA87D(--primary-color);
+        margin: 0;
       }
 
-button style {
-    color: #4BA87D;
-    touch-action: #FFFF;
-}
+      header {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        padding: 20px;
+      }
