@@ -1,9 +1,12 @@
-body {
 
     @import url('https://fonts.googleapis.com/css?family=Raleway');
-}
-        {
-        font-family: 'Raleway', sans-serif;
-        color: #0E204E;
+    font-family: 'Raleway', sans-serif;
+    
+    body {
+        color: black;
+      }
 
-    }
+button style {
+    color: #4BA87D;
+    touch-action: #FFFF;
+}
