@@ -1,12 +1,9 @@
 body {
-    header:
 
-    /* Import Raleway font from Google Fonts */
     @import url('https://fonts.googleapis.com/css?family=Raleway');
-
-    /* Apply Raleway font to the whole document */
+}
         {
         font-family: 'Raleway', sans-serif;
-        color: black;
+        color: #0E204E;
 
     }
