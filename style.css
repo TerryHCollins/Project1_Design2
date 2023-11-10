@@ -239,10 +239,25 @@ template {
 
 h1 {
   font-family: 'Playfair Display', sans-serif;
-  size: 59px
+  font-size: 59px
 }
 
 h2{
   font-family: 'Playfair Display', sans-serif;
- size:44px
+ font-size:44px
+}
+
+button{
+  background-color: #4BA87D;
+  color:#FFFFFF;
+}
+
+button:hover{
+  transition-duration: 0.4s;
+  background-color:#FFFFFF;
+  color:#4BA87D;
+}
+
+nav{
+flex-
 }
