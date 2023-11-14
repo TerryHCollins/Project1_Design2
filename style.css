@@ -9,19 +9,31 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
 }
+
 li {
   display: inline;
-  text-align:justify;
-  float:right;
+  text-align: justify;
+  float: right;
   margin: 10px;
-  
+
 }
-nav img{
+
+.menu button {
+  text-align: center;
+  flex-direction: row;
+}
+
+nav img {
   display: inline;
-  align-items:start;
+  align-items: start;
   size-adjust: 30%;
 
 }
+
+.intro {
+  display: flex;
+}
+
 body {
   margin: 0
 }
@@ -273,14 +285,14 @@ button:hover {
 nav a {
   color: black;
   text-decoration: none;
+  border-bottom: 5px solid transparent;
 }
 
 nav a:hover {
-  text-decoration-line:underline;
-  text-decoration-color: #4BA87D;
+  border-bottom-color: #4BA87D;
 }
 
-body{
+body {
   margin: auto;
   flex-wrap: wrap;
   top: auto;
@@ -292,10 +304,7 @@ body{
 
 
 
-footer a{
+footer a {
   color: black;
 
 }
-
-
-
