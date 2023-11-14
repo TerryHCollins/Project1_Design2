@@ -9,7 +9,19 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
 }
+li {
+  display: inline;
+  text-align:justify;
+  float:right;
+  margin: 10px;
+  
+}
+nav img{
+  display: inline;
+  align-items:start;
+  size-adjust: 30%;
 
+}
 body {
   margin: 0
 }
@@ -266,22 +278,6 @@ nav a {
 nav a:hover {
   text-decoration-line:underline;
   text-decoration-color: #4BA87D;
-}
-
-nav{
-min-height: 102px; 
-min-width: 1440px;
-display: flex;
-flex-direction: row;
-flex-flow:auto;
-position:static;
-}
-
-nav .flex-container{
-display: flex;
-flex-wrap: wrap;
-flex-flow: row;
-text-align: right;
 }
 
 body{
