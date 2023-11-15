@@ -15,7 +15,7 @@ html {
 }
 
 /* nav flexbox */
-nav{
+nav {
   display:flex;
   flex-direction: row;
   justify-content: space-between;
@@ -23,7 +23,6 @@ nav{
 /* menu styles */
 .menu {
   display: flex;
-  margin: 10px;
 }
 
 .menu button {
@@ -45,14 +44,6 @@ body {
   margin: 0
 }
 
-article,
-aside,
-footer,
-header,
-nav,
-section {
-  display: block
-}
 
 h1 {
   font-size: 2em;
