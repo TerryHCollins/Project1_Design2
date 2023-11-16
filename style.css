@@ -1,18 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+/* Show/Hide elements for desktop vs mobile */
+/* target mobile items to hide until breakpoint */
 
-@media (max-width:1200px) {}
-ul {
-  list-style-type: none;
-  padding: 0;
+/* Mobile Styles Hide Desk*/
+.deskwomanmobile {
+  display:block;
+}
+.deskwoman {
+  display:none;
+  
+}
+@media(min-width:945px){
+  .intro,.menu {
+  display: block;
 }
 
+  /* srcset to hide/show img */
+
+.deskwoman {
+  display:none;
+  
+}
+
+
+ } /* show/hide deskwoman photos */
 html {
   font-family: 'Raleway', sans-serif;
   font-size: 19px;
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+}
+/* menu list - bullet removal and padding removal */
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 /* nav flexbox */
