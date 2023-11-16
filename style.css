@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
 
+@media (max-width:1200px) {}
 ul {
   list-style-type: none;
   padding: 0;
@@ -11,18 +12,21 @@ html {
   font-size: 19px;
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%;
 }
 
 /* nav flexbox */
 nav {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
+
 }
+
 /* menu styles */
 .menu {
   display: flex;
+gap: 10px;
 }
 
 .menu button {
@@ -34,10 +38,16 @@ nav img {
   align-items: start;
   size-adjust: 30%;
 }
-
+/* Intro Section  */
 .intro {
   display: flex;
   flex: auto;
+}
+
+.intro img{
+  display:flex;
+  
+
 }
 
 body {
