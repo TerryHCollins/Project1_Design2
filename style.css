@@ -1,27 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
-/* Show/Hide elements for desktop vs mobile */
-/* target mobile items to hide until breakpoint */
 
-/* Mobile Styles Hide Desk*/
-.mobile {
-  display:block;
-}
-.desktop {
-  display:none;
-  
-}
-@media(min-width:945px){
-  .intro,.menu {
-  display: block;
-}
 
   /* srcset to hide/show img */
 
 
 
 
- } /* show/hide deskwoman photos */
+
+
 html {
   font-family: 'Raleway', sans-serif;
   font-size: 19px;
@@ -29,6 +16,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 /* menu list - bullet removal and padding removal */
 ul {
   list-style-type: none;
@@ -46,7 +34,7 @@ nav {
 /* menu styles */
 .menu {
   display: flex;
-gap: 10px;
+  gap: 10px;
 }
 
 .menu button {
@@ -58,15 +46,15 @@ nav img {
   align-items: start;
   size-adjust: 30%;
 }
+
 /* Intro Section  */
 .intro {
   display: flex;
   flex: auto;
 }
 
-.intro img{
-  display:flex;
-  
+.intro_img {
+  display: flex;
 
 }
 
@@ -334,5 +322,29 @@ body {
 
 footer a {
   color: black;
-list-style-type: none;
+  list-style-type: none;
+}
+
+/* target mobile items to hide until breakpoint */
+/* Mobile Styles Hide Desk*/
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: block;
+
+}
+
+@media(max-width:600px) {
+  .mobile {
+    display: block;
+  }
+
+  .desktop{
+    display: none;
+  } .intro,
+  .menu {
+    display: block;
+  }
 }
