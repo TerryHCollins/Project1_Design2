@@ -4,10 +4,10 @@
 /* target mobile items to hide until breakpoint */
 
 /* Mobile Styles Hide Desk*/
-.deskwomanmobile {
+.mobile {
   display:block;
 }
-.deskwoman {
+.desktop {
   display:none;
   
 }
@@ -18,10 +18,7 @@
 
   /* srcset to hide/show img */
 
-.deskwoman {
-  display:none;
-  
-}
+
 
 
  } /* show/hide deskwoman photos */
