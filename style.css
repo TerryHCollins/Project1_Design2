@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
 
-
-  /* srcset to hide/show img */
-
-
-
-
-
-
 html {
   font-family: 'Raleway', sans-serif;
   font-size: 19px;
@@ -325,8 +317,7 @@ footer a {
   list-style-type: none;
 }
 
-/* target mobile items to hide until breakpoint */
-/* Mobile Styles Hide Desk*/
+/* target mobile items to hide at breakpoint */
 .mobile {
   display: none;
 }
@@ -334,16 +325,18 @@ footer a {
 .desktop {
   display: block;
 
-}
+}   
 
 @media(max-width:600px) {
   .mobile {
     display: block;
   }
 
-  .desktop{
+  .desktop {
     display: none;
-  } .intro,
+  }
+
+  .intro,
   .menu {
     display: block;
   }
